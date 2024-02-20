@@ -34,6 +34,8 @@ if (file_exists($local_settings)) {
 }
 
 // $settings['config_sync_directory'] = '../config/sync';
-$settings['config_sync_directory'] = 'sites/default/sync';
+if (empty($settings['config_sync_directory'])) {
+  $settings['config_sync_directory'] = 'sites/default/files/sync';
+}
 
 $settings['hash_salt'] = 'your_random_salt_value_here';
