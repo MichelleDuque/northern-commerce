@@ -1,0 +1,29 @@
+uuid: 029dbf68-6b83-478d-9503-fbc5b1d64370
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_certification
+    - node.type.faculty
+    - taxonomy.vocabulary.certification
+id: node.faculty.field_certification
+field_name: field_certification
+entity_type: node
+bundle: faculty
+label: Certification
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      certification: certification
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: 608cd247-8011-4653-92a7-1901f1f35a51
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_duration
+    - node.type.course
+  module:
+    - options
+id: node.course.field_duration
+field_name: field_duration
+entity_type: node
+bundle: course
+label: Duration
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
