@@ -32,3 +32,7 @@ $local_settings = __DIR__ . "/settings.local.php";
 if (file_exists($local_settings)) {
   include $local_settings;
 }
+
+$settings['config_sync_directory'] = '../config/sync';
+
+$settings['hash_salt'] = 'your_random_salt_value_here';
