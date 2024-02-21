@@ -37,4 +37,4 @@ $settings['config_sync_directory'] = '../config/sync';
 
 $settings['hash_salt'] = 'your_random_salt_value_here';
 
-$conf['clean_url'] = 0;
+// $base_url = 'http://localhost/michelleduque/web/';

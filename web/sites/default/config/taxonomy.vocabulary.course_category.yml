@@ -1,8 +1,0 @@
-uuid: 8fc45dbf-78af-4516-b055-8478921a3d7b
-langcode: en
-status: true
-dependencies: {  }
-name: 'Course Category'
-vid: course_category
-description: ''
-weight: 0
