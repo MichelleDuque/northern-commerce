@@ -1,0 +1,33 @@
+uuid: a8800920-9c54-42b7-b953-01ceb8c98692
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.courses
+  module:
+    - node
+    - views
+  theme:
+    - northern_theme
+id: northern_theme_views_block__courses_block_courses_by_faculty
+theme: northern_theme
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:courses-block_courses_by_faculty'
+settings:
+  id: 'views_block:courses-block_courses_by_faculty'
+  label: Courses
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: Courses
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      faculty: faculty

@@ -1,0 +1,25 @@
+uuid: 698e8475-3be4-4a61-8cd1-466edacf7a0a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:01fb65cb-a23e-420c-a4cf-3c8e8e9412d0'
+  module:
+    - block_content
+  theme:
+    - northern_theme
+id: northern_theme_copyright
+theme: northern_theme
+region: masthead_prefix
+weight: -1
+provider: null
+plugin: 'block_content:01fb65cb-a23e-420c-a4cf-3c8e8e9412d0'
+settings:
+  id: 'block_content:01fb65cb-a23e-420c-a4cf-3c8e8e9412d0'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

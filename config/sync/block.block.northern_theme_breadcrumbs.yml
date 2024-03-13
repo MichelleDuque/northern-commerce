@@ -1,4 +1,4 @@
-uuid: 16ea548d-01aa-4f52-b19e-6156c08e1a8b
+uuid: 9af4a940-2268-487c-adfb-9f53a187da60
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: northern_theme_breadcrumbs
 theme: northern_theme
 region: masthead_prefix
-weight: 0
+weight: -3
 provider: null
 plugin: system_breadcrumb_block
 settings:

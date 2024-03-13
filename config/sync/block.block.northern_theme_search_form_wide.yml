@@ -1,4 +1,4 @@
-uuid: a15ef7c2-c014-4d11-8991-2905c5e8752f
+uuid: 622fb9fc-7434-4c10-ab77-a7dc158a83ba
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: northern_theme_search_form_wide
 theme: northern_theme
 region: masthead_prefix
-weight: -5
+weight: -9
 provider: null
 plugin: search_form_block
 settings:

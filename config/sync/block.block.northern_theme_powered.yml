@@ -1,4 +1,4 @@
-uuid: d3a501ec-511a-4fe2-b178-18a110399a4e
+uuid: 569b3010-8640-494d-8b58-76b768dd2155
 langcode: en
 status: false
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: northern_theme_powered
 theme: northern_theme
 region: masthead_prefix
-weight: 0
+weight: 1
 provider: null
 plugin: system_powered_by_block
 settings:

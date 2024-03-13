@@ -1,0 +1,25 @@
+uuid: 5b431daf-3ef5-4e38-97f1-87ba8a15aece
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:00a8a91d-1d9e-455f-ac78-c4e065aa31d5'
+  module:
+    - block_content
+  theme:
+    - northern_theme
+id: northern_theme_contactinfo
+theme: northern_theme
+region: masthead_prefix
+weight: -2
+provider: null
+plugin: 'block_content:00a8a91d-1d9e-455f-ac78-c4e065aa31d5'
+settings:
+  id: 'block_content:00a8a91d-1d9e-455f-ac78-c4e065aa31d5'
+  label: 'Contact Info'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

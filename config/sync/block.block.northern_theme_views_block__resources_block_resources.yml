@@ -1,0 +1,29 @@
+uuid: 0fc05c18-fb38-4d3b-bc2b-172fa146c326
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.resources
+  module:
+    - system
+    - views
+  theme:
+    - northern_theme
+id: northern_theme_views_block__resources_block_resources
+theme: northern_theme
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:resources-block_resources'
+settings:
+  id: 'views_block:resources-block_resources'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

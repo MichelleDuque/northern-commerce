@@ -1,4 +1,4 @@
-uuid: c8178227-cb99-4596-b260-0eec885b5ec0
+uuid: ce765173-ceff-46f1-94f4-f033788f6916
 langcode: en
 status: false
 dependencies:
@@ -13,7 +13,7 @@ _core:
 id: northern_theme_account_menu
 theme: northern_theme
 region: masthead_prefix
-weight: -4
+weight: -5
 provider: null
 plugin: 'system_menu_block:account'
 settings:

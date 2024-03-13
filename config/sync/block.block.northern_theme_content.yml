@@ -1,4 +1,4 @@
-uuid: a1d525fe-0370-4c0c-8108-9a7a7754af39
+uuid: 90a2ec50-c568-4856-878c-fee3f98ce5f1
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: northern_theme_content
 theme: northern_theme
 region: content
-weight: 0
+weight: -10
 provider: null
 plugin: system_main_block
 settings:

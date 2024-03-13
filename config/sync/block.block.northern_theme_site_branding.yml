@@ -1,4 +1,4 @@
-uuid: da7bec2b-cd8b-43c4-9e10-6979a8a93ecd
+uuid: a4cf971d-53b5-4c04-b8ea-f4688f780cfe
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,8 @@ _core:
   default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
 id: northern_theme_site_branding
 theme: northern_theme
-region: masthead_prefix
-weight: 0
+region: masthead_primary__left
+weight: -10
 provider: null
 plugin: system_branding_block
 settings:

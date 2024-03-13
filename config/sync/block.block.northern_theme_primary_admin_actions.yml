@@ -1,4 +1,4 @@
-uuid: edf61146-4f1c-4570-97c9-b66cff2c5f1c
+uuid: 78dfbbbf-5d9c-4836-a3d5-e5eae78c1624
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: northern_theme_primary_admin_actions
 theme: northern_theme
 region: masthead_prefix
-weight: -5
+weight: -10
 provider: null
 plugin: local_actions_block
 settings:

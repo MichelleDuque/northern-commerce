@@ -1,0 +1,29 @@
+uuid: 9599bc20-e171-4501-a0d5-f80a7a153f19
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.faculty
+  module:
+    - system
+    - views
+  theme:
+    - northern_theme
+id: northern_theme_views_block__faculty_block_faculty_teasers
+theme: northern_theme
+region: content
+weight: -9
+provider: null
+plugin: 'views_block:faculty-block_faculty_teasers'
+settings:
+  id: 'views_block:faculty-block_faculty_teasers'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

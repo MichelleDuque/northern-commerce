@@ -1,4 +1,4 @@
-uuid: 6759df74-687d-4d57-b8bb-c6b606ccf81e
+uuid: f8cb2ede-a34e-4850-9254-70f8717f57f6
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: northern_theme_syndicate
 theme: northern_theme
 region: masthead_prefix
-weight: 0
+weight: 2
 provider: null
 plugin: node_syndicate_block
 settings:

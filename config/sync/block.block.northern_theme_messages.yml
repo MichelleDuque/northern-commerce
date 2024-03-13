@@ -1,4 +1,4 @@
-uuid: 02145ec3-7a1f-493f-bb50-c9c37f231704
+uuid: ee5b3ca1-32a4-4530-9c36-433de242e6a7
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: northern_theme_messages
 theme: northern_theme
 region: masthead_prefix
-weight: -5
+weight: -8
 provider: null
 plugin: system_messages_block
 settings:

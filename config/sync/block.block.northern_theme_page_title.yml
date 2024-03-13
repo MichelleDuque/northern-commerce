@@ -1,4 +1,4 @@
-uuid: 589f9e96-eb75-44e4-9405-4687127cc12b
+uuid: b97ee790-f3da-48cb-ba1d-ae0fbc703e6a
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: northern_theme_page_title
 theme: northern_theme
 region: masthead_prefix
-weight: -5
+weight: -11
 provider: null
 plugin: page_title_block
 settings:

@@ -1,0 +1,21 @@
+uuid: 58f364fd-a48b-48e0-9be3-15ca7d86e5a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - northern_theme
+id: northern_theme_searchform
+theme: northern_theme
+region: search_overlay
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

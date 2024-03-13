@@ -1,0 +1,25 @@
+uuid: 586cf568-57cb-4897-a8e4-71f5086b35fa
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7375653e-3682-4ce5-8583-7938bff273c6'
+  module:
+    - block_content
+  theme:
+    - northern_theme
+id: northern_theme_socialmedia
+theme: northern_theme
+region: masthead_prefix
+weight: 3
+provider: null
+plugin: 'block_content:7375653e-3682-4ce5-8583-7938bff273c6'
+settings:
+  id: 'block_content:7375653e-3682-4ce5-8583-7938bff273c6'
+  label: 'Social Media'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

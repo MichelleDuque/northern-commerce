@@ -1,0 +1,29 @@
+uuid: eaca0f06-c3a7-4f43-a9b2-6d66b15b2838
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.courses
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__courses_block_course_list
+theme: olivero
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:courses-block_course_list'
+settings:
+  id: 'views_block:courses-block_course_list'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

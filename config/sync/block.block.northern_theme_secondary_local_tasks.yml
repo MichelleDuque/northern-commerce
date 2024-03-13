@@ -1,4 +1,4 @@
-uuid: 9cd27570-c043-46bf-9bb8-da5434c23cd8
+uuid: 5c9a1110-f8b2-4910-baf3-34413bfa840d
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: northern_theme_secondary_local_tasks
 theme: northern_theme
 region: masthead_prefix
-weight: -2
+weight: -4
 provider: null
 plugin: local_tasks_block
 settings:
