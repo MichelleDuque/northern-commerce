@@ -1,0 +1,22 @@
+uuid: 02145ec3-7a1f-493f-bb50-c9c37f231704
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - northern_theme
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: northern_theme_messages
+theme: northern_theme
+region: masthead_prefix
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

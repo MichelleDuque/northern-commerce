@@ -1,0 +1,22 @@
+uuid: d3a501ec-511a-4fe2-b178-18a110399a4e
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - northern_theme
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: northern_theme_powered
+theme: northern_theme
+region: masthead_prefix
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

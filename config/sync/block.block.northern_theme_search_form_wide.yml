@@ -1,0 +1,23 @@
+uuid: a15ef7c2-c014-4d11-8991-2905c5e8752f
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - northern_theme
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: northern_theme_search_form_wide
+theme: northern_theme
+region: masthead_prefix
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

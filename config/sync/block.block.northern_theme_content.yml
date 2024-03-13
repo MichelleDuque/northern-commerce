@@ -1,0 +1,22 @@
+uuid: a1d525fe-0370-4c0c-8108-9a7a7754af39
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - northern_theme
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: northern_theme_content
+theme: northern_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

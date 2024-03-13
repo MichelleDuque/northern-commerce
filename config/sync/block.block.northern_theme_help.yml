@@ -1,0 +1,22 @@
+uuid: 0631338f-159f-44d1-9cd8-d4b6c79dfbcc
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - northern_theme
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: northern_theme_help
+theme: northern_theme
+region: masthead_prefix
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
