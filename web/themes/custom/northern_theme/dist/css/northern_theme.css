@@ -4368,6 +4368,10 @@ ol li {
   padding-left: 0.3125rem;
 }
 
+.col {
+  margin-bottom: 1.875rem;
+}
+
 .node__submitted {
   position: relative;
   padding-left: 1.5625rem;
@@ -4859,6 +4863,21 @@ ol li {
   .layout--threecol-split .region-small .node--view-mode-compact .announcement-date {
     font-size: 0.75rem;
   }
+}
+
+.node--view-mode-card h2 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.4375rem;
+}
+.node--view-mode-card h2 a {
+  display: block;
+  color: #CF2035;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.node--view-mode-card .field--name-field-job-title {
+  font-size: 0.875rem;
+  line-height: 1.375rem;
 }
 
 .node--view-mode-compact > h2 {

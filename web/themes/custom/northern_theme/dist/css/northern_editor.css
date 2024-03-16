@@ -3739,6 +3739,10 @@ ol li {
   padding-left: 0.3125rem;
 }
 
+.col {
+  margin-bottom: 1.875rem;
+}
+
 .node__submitted {
   position: relative;
   padding-left: 1.5625rem;

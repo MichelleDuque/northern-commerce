@@ -1,0 +1,22 @@
+
+
+// ++++++++++ Card View Mode
+
+.node--view-mode-card{
+  h2{
+    margin-top: rem(20);
+    margin-bottom: rem(7);
+    a{
+      display: block;
+      color: $brand-primary-1;
+      font-size: rem(20);
+      line-height: rem(28);
+    }
+  }
+
+    .field--name-field-job-title{
+      font-size: rem(14);
+      line-height: rem(22);
+    }
+
+}
