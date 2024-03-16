@@ -10,8 +10,8 @@ _core:
   default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
 id: northern_theme_help
 theme: northern_theme
-region: masthead_prefix
-weight: 0
+region: content
+weight: -7
 provider: null
 plugin: help_block
 settings:

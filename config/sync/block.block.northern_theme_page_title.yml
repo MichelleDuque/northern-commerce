@@ -8,8 +8,8 @@ _core:
   default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
 id: northern_theme_page_title
 theme: northern_theme
-region: masthead_prefix
-weight: -11
+region: content
+weight: -10
 provider: null
 plugin: page_title_block
 settings:

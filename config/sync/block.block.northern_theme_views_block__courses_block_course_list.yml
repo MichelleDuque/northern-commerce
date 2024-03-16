@@ -12,7 +12,7 @@ dependencies:
 id: northern_theme_views_block__courses_block_course_list
 theme: northern_theme
 region: content
-weight: -8
+weight: -3
 provider: null
 plugin: 'views_block:courses-block_course_list'
 settings:

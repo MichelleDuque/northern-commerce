@@ -10,8 +10,8 @@ dependencies:
     - northern_theme
 id: northern_theme_socialmedia
 theme: northern_theme
-region: masthead_prefix
-weight: 3
+region: footer_first
+weight: -11
 provider: null
 plugin: 'block_content:7375653e-3682-4ce5-8583-7938bff273c6'
 settings:

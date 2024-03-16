@@ -1,4 +1,4 @@
-uuid: 9599bc20-e171-4501-a0d5-f80a7a153f19
+uuid: a6356270-f9ce-4463-aaab-aa195947b1a9
 langcode: en
 status: true
 dependencies:
@@ -9,14 +9,14 @@ dependencies:
     - views
   theme:
     - northern_theme
-id: northern_theme_views_block__faculty_block_faculty_teasers
+id: northern_theme_views_block__faculty_block_1
 theme: northern_theme
 region: content
-weight: -9
+weight: -4
 provider: null
-plugin: 'views_block:faculty-block_faculty_teasers'
+plugin: 'views_block:faculty-block_1'
 settings:
-  id: 'views_block:faculty-block_faculty_teasers'
+  id: 'views_block:faculty-block_1'
   label: ''
   label_display: '0'
   provider: views

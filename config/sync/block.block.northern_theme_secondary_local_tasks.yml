@@ -8,8 +8,8 @@ _core:
   default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
 id: northern_theme_secondary_local_tasks
 theme: northern_theme
-region: masthead_prefix
-weight: -4
+region: content
+weight: -8
 provider: null
 plugin: local_tasks_block
 settings:

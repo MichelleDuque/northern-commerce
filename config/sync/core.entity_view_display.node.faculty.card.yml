@@ -1,0 +1,48 @@
+uuid: 2009b37e-40ca-4805-aaad-13f77c316379
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.card
+    - field.field.node.faculty.body
+    - field.field.node.faculty.field_certification
+    - field.field.node.faculty.field_email
+    - field.field.node.faculty.field_image
+    - field.field.node.faculty.field_job_title
+    - field.field.node.faculty.field_phone_number
+    - field.field.node.faculty.field_speciality
+    - node.type.faculty
+  module:
+    - image
+    - user
+id: node.faculty.card
+targetEntityType: node
+bundle: faculty
+mode: card
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_job_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  body: true
+  field_certification: true
+  field_email: true
+  field_phone_number: true
+  field_speciality: true
+  links: true

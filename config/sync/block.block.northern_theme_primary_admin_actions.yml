@@ -8,8 +8,8 @@ _core:
   default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
 id: northern_theme_primary_admin_actions
 theme: northern_theme
-region: masthead_prefix
-weight: -10
+region: content
+weight: -6
 provider: null
 plugin: local_actions_block
 settings:

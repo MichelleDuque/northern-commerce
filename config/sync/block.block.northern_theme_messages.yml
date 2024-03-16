@@ -10,8 +10,8 @@ _core:
   default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
 id: northern_theme_messages
 theme: northern_theme
-region: masthead_prefix
-weight: -8
+region: content
+weight: -12
 provider: null
 plugin: system_messages_block
 settings:

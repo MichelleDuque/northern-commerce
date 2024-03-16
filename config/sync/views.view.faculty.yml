@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.card
     - core.entity_view_mode.node.teaser
     - node.type.faculty
   module:
@@ -158,6 +159,33 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
+  block_1:
+    id: block_1
+    display_title: 'Faculty Cards'
+    display_plugin: block
+    position: 1
+    display_options:
+      style:
+        type: default
+        options: {  }
+      row:
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: card
+      defaults:
+        style: false
+        row: false
+      display_description: ''
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
   block_faculty_teasers:
     id: block_faculty_teasers
     display_title: 'Faculty Teasers'
@@ -166,6 +194,26 @@ display:
     display_options:
       display_description: ''
       display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  page_1:
+    id: page_1
+    display_title: 'Faculty Page'
+    display_plugin: page
+    position: 2
+    display_options:
+      title: 'Faculty Page'
+      defaults:
+        title: false
+      display_description: ''
+      display_extenders: {  }
+      path: faculty
     cache_metadata:
       max-age: -1
       contexts:

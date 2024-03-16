@@ -11,7 +11,7 @@ _core:
 id: northern_theme_powered
 theme: northern_theme
 region: masthead_prefix
-weight: 1
+weight: -9
 provider: null
 plugin: system_powered_by_block
 settings:

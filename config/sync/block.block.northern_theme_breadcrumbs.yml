@@ -10,8 +10,8 @@ _core:
   default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
 id: northern_theme_breadcrumbs
 theme: northern_theme
-region: masthead_prefix
-weight: -3
+region: content
+weight: -11
 provider: null
 plugin: system_breadcrumb_block
 settings:

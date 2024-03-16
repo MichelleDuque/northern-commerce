@@ -10,8 +10,8 @@ dependencies:
     - northern_theme
 id: northern_theme_copyright
 theme: northern_theme
-region: masthead_prefix
-weight: -1
+region: footer_second
+weight: -12
 provider: null
 plugin: 'block_content:01fb65cb-a23e-420c-a4cf-3c8e8e9412d0'
 settings:

@@ -283,3 +283,24 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
+  page_1:
+    id: page_1
+    display_title: 'Course Page'
+    display_plugin: page
+    position: 3
+    display_options:
+      title: 'Course Page'
+      defaults:
+        title: false
+      display_description: ''
+      display_extenders: {  }
+      path: courses
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
