@@ -9,7 +9,7 @@ _core:
 id: northern_theme_secondary_local_tasks
 theme: northern_theme
 region: content
-weight: -8
+weight: -9
 provider: null
 plugin: local_tasks_block
 settings:

@@ -12,8 +12,9 @@ dependencies:
     - field.field.node.faculty.field_phone_number
     - field.field.node.faculty.field_speciality
     - node.type.faculty
+    - responsive_image.styles.card_four_column
   module:
-    - image
+    - responsive_image
     - user
 id: node.faculty.card
 targetEntityType: node
@@ -21,11 +22,11 @@ bundle: faculty
 mode: card
 content:
   field_image:
-    type: image
+    type: responsive_image
     label: hidden
     settings:
+      responsive_image_style: card_four_column
       image_link: ''
-      image_style: ''
       image_loading:
         attribute: lazy
     third_party_settings: {  }

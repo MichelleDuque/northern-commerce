@@ -1,6 +1,6 @@
 uuid: 99f98314-d472-4a98-83eb-e533399b826d
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.courses
@@ -12,7 +12,7 @@ dependencies:
 id: northern_theme_views_block__courses_block_course_list
 theme: northern_theme
 region: content
-weight: -3
+weight: 0
 provider: null
 plugin: 'views_block:courses-block_course_list'
 settings:

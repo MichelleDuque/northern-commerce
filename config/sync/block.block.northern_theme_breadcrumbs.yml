@@ -11,7 +11,7 @@ _core:
 id: northern_theme_breadcrumbs
 theme: northern_theme
 region: content
-weight: -11
+weight: -12
 provider: null
 plugin: system_breadcrumb_block
 settings:

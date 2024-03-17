@@ -1,0 +1,11 @@
+uuid: 483fd734-0f35-439b-bf8a-e1e6e331a0e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.square
+label: Square
+description: ''
+targetEntityType: node
+cache: true

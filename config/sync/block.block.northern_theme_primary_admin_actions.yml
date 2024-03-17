@@ -9,7 +9,7 @@ _core:
 id: northern_theme_primary_admin_actions
 theme: northern_theme
 region: content
-weight: -6
+weight: -7
 provider: null
 plugin: local_actions_block
 settings:

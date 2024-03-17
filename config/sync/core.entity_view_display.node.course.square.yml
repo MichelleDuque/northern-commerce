@@ -1,0 +1,48 @@
+uuid: 253ebceb-977a-4c4e-8f91-44f9253f1901
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.square
+    - field.field.node.course.body
+    - field.field.node.course.field_course_category
+    - field.field.node.course.field_course_code
+    - field.field.node.course.field_duration
+    - field.field.node.course.field_end_date
+    - field.field.node.course.field_start_date
+    - field.field.node.course.field_teachers
+    - node.type.course
+  module:
+    - user
+id: node.course.square
+targetEntityType: node
+bundle: course
+mode: square
+content:
+  field_course_category:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_teachers:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  body: true
+  field_course_code: true
+  field_duration: true
+  field_end_date: true
+  field_start_date: true

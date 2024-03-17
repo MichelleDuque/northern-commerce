@@ -1,0 +1,61 @@
+
+
+// ++++++++++ Square View Mode
+
+.node--view-mode-square{
+  border: 2px solid #E5E5E5;
+  margin-bottom: rem(7);
+  padding: rem(8);
+
+  h2{
+    margin-top: rem(20);
+    margin-bottom: rem(7);
+    a{
+      display: block;
+      color: $brand-primary-1;
+      font-size: rem(20);
+      line-height: rem(28);
+    }
+  }
+
+    .field--name-field-course-category{
+      font-size: rem(14);
+      line-height: rem(22);
+    }
+
+    .field__label{
+      font-weight: 700;
+      text-transform: capitalize;
+    }
+
+    .field__item{
+        font-weight: 300;
+    }
+
+    .field__item a{
+      color: #000000;
+      text-decoration: none;
+    }
+
+
+    .field--name-field-teachers {
+      position: absolute;
+      top: 0;
+      right: rem(20); /* Ajusta esto según tu diseño */
+      margin-top: rem(25); /* Ajusta esto según tu diseño */
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .node--view-mode-square{
+      .field--name-field-teachers {
+        position: static; 
+        width: 100%;
+        text-align: right; 
+        margin-top: rem(20); 
+      }
+  }
+  
+}

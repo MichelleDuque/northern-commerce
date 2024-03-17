@@ -1,22 +1,22 @@
-uuid: 0fc05c18-fb38-4d3b-bc2b-172fa146c326
+uuid: 015ed81a-c68d-44f5-b309-3c02a9bbf850
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.resources
+    - views.view.courses
   module:
     - system
     - views
   theme:
     - northern_theme
-id: northern_theme_views_block__resources_block_resources
+id: northern_theme_views_block__courses_block_2
 theme: northern_theme
 region: content
-weight: -3
+weight: -5
 provider: null
-plugin: 'views_block:resources-block_resources'
+plugin: 'views_block:courses-block_2'
 settings:
-  id: 'views_block:resources-block_resources'
+  id: 'views_block:courses-block_2'
   label: ''
   label_display: visible
   provider: views
