@@ -31,31 +31,30 @@
     .field__item{
         font-weight: 300;
     }
-
+    
     .field__item a{
       color: #000000;
       text-decoration: none;
     }
 
+    .node__content{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
 
-    .field--name-field-teachers {
-      position: absolute;
-      top: 0;
-      right: rem(20); /* Ajusta esto según tu diseño */
-      margin-top: rem(25); /* Ajusta esto según tu diseño */
-    }
+
+
 
 }
 
 @media screen and (max-width: 768px) {
 
   .node--view-mode-square{
-      .field--name-field-teachers {
-        position: static; 
-        width: 100%;
-        text-align: right; 
-        margin-top: rem(20); 
-      }
+    .node__content{
+      display: block;
+    }
   }
   
 }
