@@ -1,0 +1,29 @@
+uuid: ffe79847-d3e5-4871-83d0-ff4a6e3f0a30
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rectangle
+    - field.field.node.resources.body
+    - field.field.node.resources.field_link
+    - field.field.node.resources.field_resource_category
+    - node.type.resources
+  module:
+    - user
+id: node.resources.rectangle
+targetEntityType: node
+bundle: resources
+mode: rectangle
+content:
+  field_resource_category:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_link: true
+  links: true

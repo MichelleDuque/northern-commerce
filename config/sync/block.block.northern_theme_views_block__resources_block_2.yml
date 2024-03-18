@@ -1,6 +1,6 @@
-uuid: 0fc05c18-fb38-4d3b-bc2b-172fa146c326
+uuid: 7c390475-b10e-47c4-b9af-59bb56280927
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - views.view.resources
@@ -9,14 +9,14 @@ dependencies:
     - views
   theme:
     - northern_theme
-id: northern_theme_views_block__resources_block_resources
+id: northern_theme_views_block__resources_block_2
 theme: northern_theme
 region: content
-weight: -1
+weight: -3
 provider: null
-plugin: 'views_block:resources-block_resources'
+plugin: 'views_block:resources-block_1'
 settings:
-  id: 'views_block:resources-block_resources'
+  id: 'views_block:resources-block_1'
   label: ''
   label_display: visible
   provider: views

@@ -1,0 +1,11 @@
+uuid: 9596f490-9f73-42ee-a9e8-9ca3e0048bad
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.rectangle
+label: Rectangle
+description: ''
+targetEntityType: node
+cache: true
