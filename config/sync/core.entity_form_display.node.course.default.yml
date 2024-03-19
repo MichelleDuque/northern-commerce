@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.course.field_course_code
     - field.field.node.course.field_duration
     - field.field.node.course.field_end_date
+    - field.field.node.course.field_new
     - field.field.node.course.field_start_date
     - field.field.node.course.field_teachers
     - node.type.course
@@ -61,6 +62,13 @@ content:
     weight: 11
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_new:
+    type: boolean_checkbox
+    weight: 26
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   field_start_date:
     type: datetime_default

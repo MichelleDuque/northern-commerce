@@ -1,0 +1,21 @@
+uuid: 622b4392-ecc0-4df9-ba1b-c336eb9e793f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_new
+    - node.type.course
+id: node.course.field_new
+field_name: field_new
+entity_type: node
+bundle: course
+label: New
+description: 'Check this field to indicate that a Course Lesson is "New".'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

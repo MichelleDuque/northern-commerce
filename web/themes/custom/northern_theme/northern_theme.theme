@@ -267,3 +267,11 @@ function northern_theme_preprocess_select(&$variables) {
     $variables['attributes']['class'][] = 'form-element--extrasmall';
   }
 }
+
+function northern_theme_preprocess_node__course__square(&$variables){
+  
+  if ($variables['node']->get('field_new')->value == TRUE){
+    $variables['attributes']['class'][] = "is-new";
+  }
+}
+

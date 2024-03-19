@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.course.field_course_code
     - field.field.node.course.field_duration
     - field.field.node.course.field_end_date
+    - field.field.node.course.field_new
     - field.field.node.course.field_start_date
     - field.field.node.course.field_teachers
     - node.type.course
@@ -25,7 +26,17 @@ content:
     settings:
       link: false
     third_party_settings: {  }
-    weight: 1
+    weight: 0
+    region: content
+  field_new:
+    type: boolean
+    label: hidden
+    settings:
+      format: true-false
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
     region: content
   field_teachers:
     type: entity_reference_label
@@ -33,12 +44,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 2
-    region: content
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
 hidden:
   body: true
@@ -46,3 +52,4 @@ hidden:
   field_duration: true
   field_end_date: true
   field_start_date: true
+  links: true

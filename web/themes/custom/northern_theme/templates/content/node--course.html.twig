@@ -74,8 +74,12 @@
   ]
 %}
 
+{{ dpm(content) }}
 
+{{ attach_library('classy/node') }}
 <article{{ attributes.addClass(classes) }}>
+
+{{content.field_image}}
 
   {{ title_prefix }}
   {% if not page %}
@@ -85,8 +89,9 @@
   {% endif %}
   {{ title_suffix }}
 
+
   <div{{ content_attributes.addClass('node__content') }}>
-    {{ content|without('field_course_code')}}
+    {{ content|without('field_image') }}
   </div>
 
 </article>
