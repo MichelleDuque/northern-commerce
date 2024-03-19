@@ -1,0 +1,13 @@
+
+.animate-reveal { 
+    opacity: 1;
+
+    @include breakpoint($l-break) { 
+        opacity: 0;
+
+        &.animated {
+            animation: fade-in 1s;
+            animation-fill-mode: forwards;
+        }
+    }
+}

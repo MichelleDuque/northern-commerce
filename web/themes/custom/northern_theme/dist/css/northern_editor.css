@@ -1524,6 +1524,21 @@ html {
   }
 }
 
+.animate-reveal {
+  opacity: 1;
+}
+@media (min-width: 62em) {
+  .animate-reveal {
+    opacity: 0;
+  }
+  .animate-reveal.animated {
+    -webkit-animation: fade-in 1s;
+            animation: fade-in 1s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+}
+
 @media (min-width: 48em) {
   .gutter-large {
     margin-left: -1rem;
