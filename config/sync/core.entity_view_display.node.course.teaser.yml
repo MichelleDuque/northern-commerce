@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.course.body
     - field.field.node.course.field_course_category
     - field.field.node.course.field_course_code
+    - field.field.node.course.field_course_image
     - field.field.node.course.field_duration
     - field.field.node.course.field_end_date
     - field.field.node.course.field_new
@@ -37,6 +38,7 @@ content:
 hidden:
   field_course_category: true
   field_course_code: true
+  field_course_image: true
   field_duration: true
   field_end_date: true
   field_new: true

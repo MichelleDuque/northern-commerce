@@ -1,0 +1,23 @@
+uuid: 157bb791-f851-4ca2-9690-f00a4b6b0295
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.1_1_small
+    - image.style.1_1_small_x2
+    - image.style.1_1_x_small
+id: card_three_column
+label: 'Card Three Column'
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: '(min-width: 576px) 720px, 480px'
+      sizes_image_styles:
+        - 1_1_small
+        - 1_1_small_x2
+        - 1_1_x_small
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+breakpoint_group: responsive_image
+fallback_image_style: 1_1_small

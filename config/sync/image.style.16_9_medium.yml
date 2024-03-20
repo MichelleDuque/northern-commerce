@@ -1,0 +1,15 @@
+uuid: 205bf211-8abc-404e-a1fd-c18c0f65c3b9
+langcode: en
+status: true
+dependencies: {  }
+name: 16_9_medium
+label: '16:9 Medium'
+effects:
+  1362fd9d-674f-43f5-85af-f20f6560d4f7:
+    uuid: 1362fd9d-674f-43f5-85af-f20f6560d4f7
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 768
+      height: 432
+      anchor: center-center

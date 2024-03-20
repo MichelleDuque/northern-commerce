@@ -7,13 +7,16 @@ dependencies:
     - field.field.node.course.body
     - field.field.node.course.field_course_category
     - field.field.node.course.field_course_code
+    - field.field.node.course.field_course_image
     - field.field.node.course.field_duration
     - field.field.node.course.field_end_date
     - field.field.node.course.field_new
     - field.field.node.course.field_start_date
     - field.field.node.course.field_teachers
+    - image.style.16_9_medium
     - node.type.course
   module:
+    - image
     - user
 id: node.course.square
 targetEntityType: node
@@ -26,6 +29,17 @@ content:
     settings:
       link: false
     third_party_settings: {  }
+    weight: 1
+    region: content
+  field_course_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: 16_9_medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
     weight: 0
     region: content
   field_new:
@@ -36,15 +50,15 @@ content:
       format_custom_false: ''
       format_custom_true: ''
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
   field_teachers:
     type: entity_reference_label
     label: inline
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
 hidden:
   body: true

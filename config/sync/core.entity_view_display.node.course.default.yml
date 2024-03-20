@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.course.body
     - field.field.node.course.field_course_category
     - field.field.node.course.field_course_code
+    - field.field.node.course.field_course_image
     - field.field.node.course.field_duration
     - field.field.node.course.field_end_date
     - field.field.node.course.field_new
@@ -14,6 +15,7 @@ dependencies:
     - node.type.course
   module:
     - datetime
+    - image
     - options
     - text
     - user
@@ -44,6 +46,17 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_course_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 9
     region: content
   field_duration:
     type: list_default
