@@ -11,7 +11,7 @@ dependencies:
 id: northern_theme_socialmedia
 theme: northern_theme
 region: footer_first
-weight: -11
+weight: -14
 provider: null
 plugin: 'block_content:7375653e-3682-4ce5-8583-7938bff273c6'
 settings:

@@ -1,0 +1,26 @@
+
+
+// ++++++++++ Footer
+  #block-northern-theme-socialmedia{
+    
+    .clearfix ul {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      justify-content: space-between;
+    }
+
+
+    .clearfix ul li a{
+      color:  #E5E5E5;
+      text-decoration: none;
+    }
+    
+    .clearfix ul li a:hover{
+      color: #282828;
+      text-decoration: underline;
+      text-underline-offset: 5px;
+    }
+  
+  }
+
