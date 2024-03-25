@@ -1,0 +1,13 @@
+
+
+// ++++++++++ Faculty Page
+
+.view[class*="page"] .views-row:not(:last-child), .view[class*="search"] .views-row:not(:last-child){
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.view[class*="page"] .views-row, .view[class*="search"] .views-row{
+  padding-bottom: 20px;
+}
+ 
+

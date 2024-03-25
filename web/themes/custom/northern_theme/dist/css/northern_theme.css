@@ -4975,6 +4975,15 @@ ol li {
     gap: 0px 70px;
   }
 }
+.view[class*=page] .views-row:not(:last-child), .view[class*=search] .views-row:not(:last-child) {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.view[class*=page] .views-row, .view[class*=search] .views-row {
+  padding-bottom: 20px;
+}
+
 #footer-first {
   padding-bottom: 0.01875rem;
 }
