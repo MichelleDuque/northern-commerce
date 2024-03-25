@@ -4969,7 +4969,7 @@ ol li {
 }
 
 @media (min-width: 1200px) {
-  #block-northern-theme-content .node--type-faculty .node__content {
+  .region__inner .node--type-faculty .node__content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0px 70px;
