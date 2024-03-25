@@ -4921,7 +4921,7 @@ ol li {
   text-decoration: none;
 }
 
-.wrapper-link-course {
+.region__inner .node__content .wrapper-link-course {
   text-decoration: none;
   color: #000000;
   cursor: default;
@@ -5039,6 +5039,7 @@ ol li {
   text-decoration: none;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
           box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  cursor: pointer;
 }
 .node--type-course.node--view-mode-square .wrapper-link-coursehover, .node--type-course.node--view-mode-square .wrapper-link-coursefocus {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
