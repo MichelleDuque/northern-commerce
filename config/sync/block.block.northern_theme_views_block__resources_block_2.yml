@@ -12,7 +12,7 @@ dependencies:
 id: northern_theme_views_block__resources_block_2
 theme: northern_theme
 region: content
-weight: -3
+weight: -4
 provider: null
 plugin: 'views_block:resources-block_1'
 settings:

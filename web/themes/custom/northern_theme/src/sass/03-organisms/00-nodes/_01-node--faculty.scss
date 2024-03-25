@@ -1,0 +1,51 @@
+
+
+// ++++++++++ Footer
+  .node--type-faculty{
+    .node__content{
+      .field--name-field-image{
+        margin-bottom: 20px;
+      }
+
+      .field--name-field-email .field__item a{
+        color: #000000;
+        text-decoration: none;
+        cursor: default;
+      }
+    }
+
+    .block-views-block--courses-block-courses-by-faculty{
+      .wrapper-link-course{
+        text-decoration: none;
+      }
+
+      .wrapper-link-course h2 span:hover{
+        color: #CF2035; 
+      }
+
+      .views-row article .node__content .node__links a{
+        color: #CF2035;
+      }
+    }
+    
+  
+  }
+
+
+  #footer-second{
+    background-color: #CF2035;
+  }
+
+  @media (min-width: 1200px){
+
+     #block-northern-theme-content  
+       .node__content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px 70px;
+
+      }
+
+  
+  }
+

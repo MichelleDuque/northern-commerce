@@ -4946,6 +4946,35 @@ ol li {
   color: #CF2035;
 }
 
+.node--type-faculty .node__content .field--name-field-image {
+  margin-bottom: 20px;
+}
+.node--type-faculty .node__content .field--name-field-email .field__item a {
+  color: #000000;
+  text-decoration: none;
+  cursor: default;
+}
+.node--type-faculty .block-views-block--courses-block-courses-by-faculty .wrapper-link-course {
+  text-decoration: none;
+}
+.node--type-faculty .block-views-block--courses-block-courses-by-faculty .wrapper-link-course h2 span:hover {
+  color: #CF2035;
+}
+.node--type-faculty .block-views-block--courses-block-courses-by-faculty .views-row article .node__content .node__links a {
+  color: #CF2035;
+}
+
+#footer-second {
+  background-color: #CF2035;
+}
+
+@media (min-width: 1200px) {
+  #block-northern-theme-content .node__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px 70px;
+  }
+}
 #footer-first {
   padding-bottom: 0.01875rem;
 }

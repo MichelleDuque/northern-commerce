@@ -10,10 +10,9 @@ dependencies:
     - field.field.node.faculty.field_job_title
     - field.field.node.faculty.field_phone_number
     - field.field.node.faculty.field_speciality
-    - image.style.medium
     - node.type.faculty
   module:
-    - image
+    - responsive_image
     - text
     - user
 id: node.faculty.default
@@ -44,11 +43,11 @@ content:
     weight: 3
     region: content
   field_image:
-    type: image
+    type: responsive_image
     label: hidden
     settings:
+      responsive_image_style: ''
       image_link: ''
-      image_style: medium
       image_loading:
         attribute: eager
     third_party_settings: {  }
