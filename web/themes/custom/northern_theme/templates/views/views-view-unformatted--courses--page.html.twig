@@ -21,11 +21,11 @@
   
   {% if rows|length > 0 %}
   
-  <div class="row">
+  <div class="row course-page">
   {% for row in rows %}
     {%
       set row_classes = [
-        default_row_class ? 'views-row',
+        default_row_class ? 'views-row', 
         "col",
         "col-12",
         "col-sm-6",

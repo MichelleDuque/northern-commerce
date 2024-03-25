@@ -4975,15 +4975,6 @@ ol li {
     gap: 0px 70px;
   }
 }
-.view[class*=page] .views-row:not(:last-child), .view[class*=search] .views-row:not(:last-child) {
-  border-bottom: none;
-  margin-bottom: 0;
-}
-
-.view[class*=page] .views-row, .view[class*=search] .views-row {
-  padding-bottom: 20px;
-}
-
 #footer-first {
   padding-bottom: 0.01875rem;
 }
@@ -5006,6 +4997,49 @@ ol li {
             justify-content: space-between;
   }
 }
+.course-page .views-row .node--type-course.node--view-mode-square {
+  height: 100%;
+}
+.course-page .views-row .node--type-course.node--view-mode-square .wrapper-link-course {
+  display: block;
+  height: 100%;
+  border: 1px solid #D0D2D9;
+  padding: 1.875rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  color: #000000;
+  text-decoration: none;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+.course-page .views-row .node--type-course.node--view-mode-square .wrapper-link-coursehover, .course-page .views-row .node--type-course.node--view-mode-square .wrapper-link-coursefocus {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.course-page .views-row .node--type-course.node--view-mode-square .field--name-field-course-image {
+  margin-left: -1.875rem;
+  margin-right: -1.875rem;
+  margin-top: -1.875rem;
+}
+.course-page .views-row .node--type-course.node--view-mode-square h2 {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  margin-top: 1.875rem;
+}
+
+.view[class*=page] .views-row:not(:last-child), .view[class*=search] .views-row:not(:last-child) {
+  border-bottom: none;
+}
+
+#block-northern-theme-content .resource-page {
+  margin-bottom: 10px;
+}
+#block-northern-theme-content .resource-page-container .views-row {
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+
 .node--view-mode-rectangle {
   border: 2px solid #E5E5E5;
   margin-bottom: 0.4375rem;

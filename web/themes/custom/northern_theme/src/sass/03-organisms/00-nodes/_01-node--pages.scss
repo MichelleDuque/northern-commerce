@@ -1,0 +1,23 @@
+
+
+// ++++++++++ Faculty Page
+
+.view[class*="page"] .views-row:not(:last-child), .view[class*="search"] .views-row:not(:last-child){
+  border-bottom: none;
+}
+
+#block-northern-theme-content{
+
+.resource-page{
+  margin-bottom: 10px;
+}
+
+.resource-page-container {
+  .views-row{
+    padding-bottom: 0;
+    margin-bottom: 10px;
+  }
+}
+
+}
+

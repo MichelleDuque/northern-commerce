@@ -19,6 +19,7 @@
   <h3>{{ title }}</h3>
 {% endif %}
 
+<div class="resource-page-container">
 {% for row in rows %}
   {%
     set row_classes = [
@@ -29,5 +30,6 @@
     {{- row.content -}}
   </div>
 {% endfor %}
+</div>
 
 
