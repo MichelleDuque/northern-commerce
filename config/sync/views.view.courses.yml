@@ -7,8 +7,10 @@ dependencies:
     - core.entity_view_mode.node.square
     - core.entity_view_mode.node.teaser
     - node.type.course
+    - taxonomy.vocabulary.course_category
   module:
     - node
+    - taxonomy
     - user
 id: courses
 label: Courses
@@ -304,8 +306,93 @@ display:
           validate_options: {  }
           break_phrase: false
           not: false
+      filters:
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+          expose:
+            operator: ''
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+          value:
+            course: course
+        field_course_category_target_id:
+          id: field_course_category_target_id
+          table: node__field_course_category
+          field: field_course_category_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_course_category_target_id_op
+            label: 'Course Category'
+            description: ''
+            use_operator: false
+            operator: field_course_category_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_course_category_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              editor: '0'
+              content_editor: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: course_category
+          type: select
+          hierarchy: false
+          limit: true
+          error_message: true
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: default
+        options: {  }
+      row:
+        type: 'entity:node'
+        options:
+          view_mode: teaser
       defaults:
+        style: false
+        row: false
         arguments: false
+        filters: false
+        filter_groups: false
       display_description: ''
       display_extenders: {  }
     cache_metadata:
@@ -317,15 +404,52 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  page_1:
-    id: page_1
-    display_title: 'Course Page'
+  courses_page:
+    id: courses_page
+    display_title: 'Courses Page'
     display_plugin: page
-    position: 3
+    position: 1
     display_options:
-      title: 'Course Page'
+      title: 'Course List'
+      filters:
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+          expose:
+            operator: ''
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+          value:
+            course: course
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: default
+        options: {  }
+      row:
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: square
       defaults:
         title: false
+        style: false
+        row: false
+        filters: false
+        filter_groups: false
       display_description: ''
       display_extenders: {  }
       path: courses
