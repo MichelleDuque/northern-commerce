@@ -42,7 +42,7 @@ content:
     third_party_settings: {  }
   field_course_category:
     type: options_select
-    weight: 13
+    weight: 12
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -56,7 +56,7 @@ content:
     third_party_settings: {  }
   field_course_image:
     type: image_image
-    weight: 12
+    weight: 13
     region: content
     settings:
       progress_indicator: throbber

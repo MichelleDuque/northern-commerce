@@ -29,7 +29,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 7
+    weight: 8
     region: content
   field_course_category:
     type: entity_reference_label
@@ -37,7 +37,7 @@ content:
     settings:
       link: false
     third_party_settings: {  }
-    weight: 5
+    weight: 6
     region: content
   field_course_code:
     type: string
@@ -45,25 +45,25 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
   field_course_image:
     type: image
-    label: above
+    label: hidden
     settings:
       image_link: ''
       image_style: ''
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 9
+    weight: 1
     region: content
   field_duration:
     type: list_default
     label: inline
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
   field_end_date:
     type: datetime_default
@@ -72,7 +72,7 @@ content:
       timezone_override: ''
       format_type: olivero_medium
     third_party_settings: {  }
-    weight: 4
+    weight: 5
     region: content
   field_new:
     type: boolean
@@ -82,7 +82,7 @@ content:
       format_custom_false: ''
       format_custom_true: ''
     third_party_settings: {  }
-    weight: 8
+    weight: 9
     region: content
   field_start_date:
     type: datetime_default
@@ -91,7 +91,7 @@ content:
       timezone_override: ''
       format_type: olivero_medium
     third_party_settings: {  }
-    weight: 3
+    weight: 4
     region: content
   field_teachers:
     type: entity_reference_label
@@ -99,7 +99,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 6
+    weight: 7
     region: content
   links:
     settings: {  }

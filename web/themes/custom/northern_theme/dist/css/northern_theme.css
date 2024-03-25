@@ -4921,6 +4921,24 @@ ol li {
   text-decoration: none;
 }
 
+.wrapper-link-course {
+  text-decoration: none;
+  color: #000000;
+}
+
+.field--name-field-teachers {
+  margin-bottom: 10px;
+}
+
+.field--name-field-teachers .field__items .field__item a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.field--name-field-teachers .field__items .field__item a:hover {
+  color: #CF2035;
+}
+
 #footer-first {
   padding-bottom: 0.01875rem;
 }
