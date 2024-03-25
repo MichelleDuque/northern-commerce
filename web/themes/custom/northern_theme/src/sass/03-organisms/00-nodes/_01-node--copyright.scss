@@ -4,7 +4,8 @@
   #block-northern-theme-copyright{
     
     .clearfix{
-      text-align: right;
+      text-align: center;
+      color:  #E5E5E5;
     }
 
     .clearfix p a{
@@ -12,5 +13,14 @@
       text-decoration: none;
     }
   
+  }
+
+
+  @media (min-width: 768px){
+    #block-northern-theme-copyright{
+    .clearfix{
+      text-align: right;
+    }
+  }
   }
 

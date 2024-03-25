@@ -5,15 +5,15 @@
     
     .clearfix ul {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       list-style: none;
-      justify-content: space-between;
+      text-align: center;
     }
-
 
     .clearfix ul li a{
       color:  #E5E5E5;
       text-decoration: none;
+      margin-right: 0;
     }
     
     .clearfix ul li a:hover{
@@ -24,3 +24,12 @@
   
   }
 
+  @media (min-width: 768px){
+    #block-northern-theme-socialmedia{
+    .clearfix ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}

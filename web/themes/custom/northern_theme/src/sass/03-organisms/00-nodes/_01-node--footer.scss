@@ -4,16 +4,24 @@
   #footer-first{
     padding-bottom: rem(0.3);
     
-    .container{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-    }
   
   }
 
 
   #footer-second{
     background-color: #CF2035;
+  }
+
+  @media (min-width: 768px){
+
+    #footer-first{
+
+    .container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
   }
 
