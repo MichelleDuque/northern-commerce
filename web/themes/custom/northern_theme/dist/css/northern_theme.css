@@ -4924,6 +4924,7 @@ ol li {
 .wrapper-link-course {
   text-decoration: none;
   color: #000000;
+  cursor: default;
 }
 
 .field--name-field-teachers {
@@ -4992,6 +4993,13 @@ ol li {
 }
 .node--view-mode-rectangle .field--name-field-resource-category .field__item {
   font-weight: 100;
+}
+
+.node--type-resources .node__content .field a {
+  color: #CF2035;
+}
+.node--type-resources .node__content .field a:hover {
+  color: #000000;
 }
 
 #block-northern-theme-socialmedia .clearfix ul {
